@@ -6,16 +6,16 @@
 # available at https://github.com/gt-sse-center/copier-UvScaffolding.
 #
 
-_commit: v0.1.8-1-g98fa074
+_commit: v0.1.8-1-g854654e
 _src_path: .
 author_email: github@DavidBrownell.com
 author_name: Dave Brownell
 coverage_badge_gist_id: 48391b195dedd43fcaa87d77130c3987
 coverage_badge_gist_username: davidbrownell
 github_host: https://github.com
-github_repo_name: copier-UvScaffoldingTest
+github_repo_name: copier-uvScaffoldingTest
 github_username: davidbrownell
 license: MIT
-project_name: copier-UvScaffoldingTest
+project_name: copier-uvScaffoldingTest
 python_package_name: copier_uvscaffoldingtest
 python_versions: 3.10, 3.11, 3.12, 3.13
