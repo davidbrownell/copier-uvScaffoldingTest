@@ -15,7 +15,7 @@ If you experience a problem with our software, please visit [issues](https://git
 If you would like to suggest a new feature for our software, please visit [issues](https://github.com/davidbrownell/copier-uvScaffoldingTest/issues) and create a `Feature request`.
 
 # Issue Labels
-We use these lables to help us track and manage `Bug reports` and `Feature requests`.
+We use these labels to help us track and manage `Bug reports` and `Feature requests`.
 
 | Label | Description |
 | --- | --- |

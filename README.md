@@ -12,7 +12,7 @@
 [![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davidbrownell/48391b195dedd43fcaa87d77130c3987/raw/copier-uvScaffoldingTest_code_coverage.json)](https://github.com/davidbrownell/copier-uvScaffoldingTest/actions)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/y/davidbrownell/copier-uvScaffoldingTest?color=dark-green)](https://github.com/davidbrownell/copier-uvScaffoldingTest/commits/main/)
 
-<!-- Content above this delimiter will be copied to the generated README file. -->
+<!-- Content above this delimiter will be copied to the generated README.md file. DO NOT REMOVE THIS COMMENT, as it will cause regeneration to fail. -->
 
 ## Contents
 - [Overview](#overview)
@@ -24,14 +24,10 @@
 ## Overview
 TODO: Complete this section
 
-### How to use copier-UvScaffoldingTest
+### How to use copier-uvScaffoldingTest
 TODO: Complete this section
 
-
-
-Added content. And more content.
-
-<!-- Content below this delimiter will be copied to the generated README file. -->
+<!-- Content below this delimiter will be copied to the generated README.md file. DO NOT REMOVE THIS COMMENT, as it will cause regeneration to fail. -->
 
 ## Installation
 
@@ -39,6 +35,13 @@ Added content. And more content.
 | --- | --- |
 | Via [uv](https://github.com/astral-sh/uv) | `uv add copier_uvscaffoldingtest` |
 | Via [pip](https://pip.pypa.io/en/stable/) | `pip install copier_uvscaffoldingtest` |
+
+### Verifying Signed Artifacts
+Artifacts are signed and validated using [py-minisign](https://github.com/x13a/py-minisign) and the public key in the file `./minisign_key.pub`.
+
+To verify that an artifact is valid, visit [the latest release](https://github.com/davidbrownell/copier-uvScaffoldingTest/releases/latest) and download the `.minisign` signature file that corresponds to the artifact, then run the following command, replacing `<filename>` with the name of the artifact to be verified:
+
+`uv run --with py-minisign python -c "import minisign; minisign.PublicKey.from_file('minisign_key.pub').verify_file('<filename>')"`
 
 ## Development
 Please visit [Contributing](https://github.com/davidbrownell/copier-uvScaffoldingTest/blob/main/CONTRIBUTING.md) and [Development](https://github.com/davidbrownell/copier-uvScaffoldingTest/blob/main/DEVELOPMENT.md) for information on contributing to this project.
